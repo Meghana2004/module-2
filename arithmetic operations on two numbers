@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,ch;
+    printf("enter  the values of a and b");
+    scanf("%d%d",&a,&b);
+    printf("enter your choice\n1.addition   2.subraction   3.divison   4.multiplication");
+    scanf("%d",&ch);
+    switch(ch){
+        case 1:
+        printf("the addition of two numbers is %d",a+b);
+        break;
+        case 2:
+        printf("the subraction of two numbers is %d",a-b);
+        break;
+        case 3:
+        printf("the divison of two numbers is %d",a%b);
+        break;
+        case 4:
+        printf("the multiplication of two numbers is %d",a*b);
+        break;
+    }
+}
